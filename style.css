@@ -1,0 +1,26 @@
+.body{
+    background-image: url("background.jpg");
+    background-size: contain;
+}
+.heading{
+    background-color: orange;
+    color: white;
+    font-size: 40px;
+    width: 50%;
+    font-family: 'Bungee Outline', cursive;
+}
+.heading:hover{font-size: 60px; width: 70%; font-family: 'Hanalei Fill', cursive;
+}
+canvas{
+    border: solid 3px black;
+    animation-duration: 4s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;;}
+    to {box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;}
+}
+.button{
+    margin-top: 400px;
+}
